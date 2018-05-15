@@ -2,7 +2,7 @@ body
   font-size: 14px;
 }
 
-
+/* The background color of the nav is yellow */
 nav {
   background color: yellow;
   height: 100px;
@@ -10,25 +10,29 @@ nav {
   position: fixed;
   width: 100%;
 
+/* below marks the style of a different section than the nav */
+
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/* below is h1, which is important because you can't have h2,h3,h4 without h1. */
 h1 {
   font-family: sans-serif;
   font-size: 2em;
 }
+/* on this file, we are using em to measure font size */
 
 .example, h3 {
   padding-top: 30px;
   text-align: center;
 }
-
+/* h3 is heading 3 and it is 1.3em */
 h3 {
   font-size: 1.3em;
 }
 
+/* The style of the next element is green with a hight of 100px */
 .element {
   background-color: green;
   height: 100px;
