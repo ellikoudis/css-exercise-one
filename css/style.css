@@ -1,4 +1,4 @@
-body
+body {
   font-size: 14px;
 }
 
@@ -9,13 +9,14 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
 /* below marks the style of a different section than the nav */
-
 section {
   margin: 0 auto;
   width: 60%;
 }
+
 /* below is h1, which is important because you can't have h2,h3,h4 without h1. */
 h1 {
   font-family: sans-serif;
@@ -38,3 +39,11 @@ h3 {
   height: 100px;
   margin: 10px, 0;
   width: 100%;
+}
+
+.change {
+  background-color: blue;
+  height: 100px;
+  margin: 10px, 0;
+  width: 100%;
+}
